@@ -1,0 +1,12 @@
+Certainly! Here's a table of common breakpoints:
+
+| **Device/Screen Size** | **Breakpoint**   |
+|------------------------|------------------|
+| **Mobile (portrait)**  | `max-width: 599px` |
+| **Mobile (landscape)** | `min-width: 600px` |
+| **Tablet (portrait)**  | `min-width: 600px` to `max-width: 899px` |
+| **Tablet (landscape)** | `min-width: 900px` |
+| **Small Desktop**      | `min-width: 1024px` |
+| **Large Desktop**      | `min-width: 1200px` |
+
+

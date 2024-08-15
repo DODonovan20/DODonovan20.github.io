@@ -1,0 +1,72 @@
+/* Default styles (mobile first approach) */
+body {
+    background-color: rgb(241, 239, 239);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  header {
+    font-family: sans-serif;
+    background-color: navy;
+    color: white;
+    width: 100dvw;
+  }
+
+  header > h1, h2, h3, h4, h5, h6 {
+    display: inline;
+    padding-left: 10px;
+  }
+
+  header > button  {
+    float:right ;
+    border-radius: 8px;
+    border-color: white;
+    text-align: center;
+    border-style: solid;
+    margin-right:10px;
+  }
+
+header > button > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+  header > button:hover {
+    cursor: pointer;
+    border-color: white;
+    background-color: navy;
+    color: white;
+  }
+  
+  main {
+    padding: 10px;
+  }
+  /* Styles for tablets (portrait and landscape) */
+  @media (min-width: 600px) {
+    /* Tablet styles here */
+    body {
+        background-color: blue;
+    }
+  }
+  
+  /* Styles for small desktops */
+  @media (min-width: 1024px) {
+    /* Small desktop styles here */
+    body {
+        background-color: green;
+        font-size: 20px
+    }
+    button {
+        font-size: 16px;
+    }
+  }
+  
+  /* Styles for large desktops or larger screens */
+  @media (min-width: 1200px) {
+    /* Large desktop styles here */
+    body {
+        background-color: yellow;
+    }
+  }
+  

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finanace Tracker</title>
+    <link rel="stylesheet" href="/css/trial.css" />
+  </head>
+  <body>
+    <header>
+      <section id="navbar">
+        <h2>Finance Manager</h2>
+        <button id="menu-toggle">Menu</button>
+        <div id="menu">
+          <button><a href="#dashboard">Dashboard</a></button>
+          <button><a href="#accounts">Accounts</a></button>
+          <button><a href="#expenses">Expenses</a></button>
+          <button><a href="#budgeting">Budgeting</a></button>
+          <button><a href="#reports">Reports</a></button>
+        </div>
+      </section>
+    </header>
+
+    <main >
+      <section id="dashboard">
+        <div class="grid-item">
+          <div id="dashboard-accounts-overview">
+            <h3>Account Overview</h3>
+            <p>Account 1: €XXX.XX</p>
+            <p>Account 2: €XXX.XX</p>
+          </div>
+
+          <div id="dashboard-budgets-overview">
+            <h3>Budget Overview</h3>
+            <p>Groceries: €XXX.XX left</p>
+            <p>Rent: €XXX.XX left</p>
+          </div>
+        </div>
+
+        <div class="grid-item" id="dashboard-chart">
+          <h3>Income VS Expenses</h3>
+        </div>
+
+        <div class="grid-item" id="recent-transactions">
+          <div class="subsection-bg">
+            <h3>Recent Transactions</h3>
+            <li>08/12: Dining $XX</li>
+            <li>08/13: Utilities $XX</li>
+            <li>08/14: Groceries $XX</li>
+          </div>
+        </div>
+      </section>
+
+      <section id="accounts">
+        <div class="subsection-bg">
+            <h2>Accounts</h2>
+            <div id="accounts-overview">
+              <table>
+                <thead>
+                  <th>Name</th>
+                  <th>Balance</th>
+                  <th>Actions</th>
+                </thead>
+                <tr>
+                  <td>Checkings Account</td>
+                  <td>€XXX.XX</td>
+                  <td><button type="button">Edit</button></td>
+                </tr>
+                <tr>
+                  <td>Savings Account</td>
+                  <td>€XXX.XX</td>
+                  <td><button type="button">Edit</button></td>
+                </tr>
+              </table>
+              <button type="button">Create New Account</button>
+            </div>
+        </div>
+      </section>
+
+      <section id="expenses">
+        <h2>Expenses</h2>
+        <table>
+          <thead>
+            <th>Expense</th>
+            <th>Amount</th>
+            <th>Catagory</th>
+            <th>Account</th>
+            <th>Date</th>
+            <th>Actions</th>
+          </thead>
+          <tr>
+            <td>Groceries</td>
+            <td>€XX.XX</td>
+            <td>Groceries</td>
+            <td>Checkings</td>
+            <td>20/04/11</td>
+            <td><button>Edit</button> <button>Delete</button></td>
+          </tr>
+          <tr>
+            <td>Groceries</td>
+            <td>€XX.XX</td>
+            <td>Groceries</td>
+            <td>Checkings</td>
+            <td>20/04/11</td>
+            <td><button>Edit</button> <button>Delete</button></td>
+          </tr>
+          <tr>
+            <td>Groceries</td>
+            <td>€XX.XX</td>
+            <td>Groceries</td>
+            <td>Checkings</td>
+            <td>20/04/11</td>
+            <td><button>Edit</button> <button>Delete</button></td>
+          </tr>
+        </table>
+        <button type="button">New Expense</button>
+      </section>
+
+      <section id="budgeting">
+        <h3>Budgeting</h3>
+        <div>chart displaying data</div>
+        <div>
+          <li>
+            Groceries: €XXX.XX left (€XXX total) <button>Edit</button>
+            <button>Delete</button>
+          </li>
+          <li>
+            Rent: €XXX.XX left (€XXX total) <button>Edit</button>
+            <button>Delete</button>
+          </li>
+          <li>
+            Dining: €XXX.XX left (€XXX total) <button>Edit</button
+            ><button>Delete</button>
+          </li>
+        </div>
+        <button>New Budget</button>
+      </section>
+
+      <section id="reports">
+        <h2>Reports</h2>
+        <div id="monthly-report">
+          <h3>Monthly Report</h3>
+          <li>Income: €XXXX</li>
+          <li>Expenditure: €XXXX</li>
+          <li>Savings: €XXXX</li>
+        </div>
+        <div>expense breakdown pie chart</div>
+        <div>income vs expenditure chart</div>
+      </section>
+    </main>
+
+    <script src="/js/navbar.js"></script>
+  </body>
+</html>

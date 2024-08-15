@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0;
+    background-color: rgb(241, 239, 239);
+    font-family: sans-serif;
+}
+
+header {
+    font-family: sans-serif;
+    background-color: navy;
+    color: white;
+    width: 100dvw; 
+    margin-bottom: 5%;
+  }
+
+  header > h2 {
+    padding-left: 10px;
+    margin: 0%;
+  }
+
+  .container   {
+    background-color: white;
+    padding: 15px;
+    border-color: navy;
+    border-style: solid;
+    border-radius: 8px;
+    width: 75%;
+    margin: auto;
+  }
+
+.signin-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signin-box > * {
+    padding:20px;
+}
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  @media (min-width: 600px) {
+    /* Tablet styles here */
+    body {
+        background-color: blue;
+    }
+  }
+  
+  /* Styles for small desktops */
+  @media (min-width: 1024px) {
+    /* Small desktop styles here */
+    body {
+        background-color: green;
+        font-size: 20px
+    }
+    button {
+        font-size: 16px;
+    }
+  }
+  
+  /* Styles for large desktops or larger screens */
+  @media (min-width: 1200px) {
+    /* Large desktop styles here */
+    body {
+        background-color: yellow;
+    }
+  }
